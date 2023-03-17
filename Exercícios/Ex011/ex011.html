@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon copy.ico" type="image/x-icon">
+    <title>Imagens dinâmicas, yay</title>
+    <style>
+        h1 {
+            color:rgb(47, 51, 114)
+        
+        }
+        h2 {
+            color: rgb(65, 112, 165)
+        }
+        p {
+            color:rgb(117, 127, 145)
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px )" srcset="p.png">
+        <source media="(max-width: 1000px)" srcset="m.png">
+
+    <img src="g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo aúdio</h1>
+    <p>Vamos aprender a usar um aúdio em seu site em HTML5</p>
+        <audio preload="metadata" autoplay controls loop>
+        <source src="Breakcore.exe.mp3" type="audio/mpeg">
+        <source src="Breakcore.exe.ogg" type="audio/ogg">
+        <source src="Breakcore.exe.wav" type="audio/wav">
+        <p>Infelizmente, seu navegador não consegue reproduzir aúdio. <a href="Breakcore.exe.mp3">clique aqui para baixar o arquivo mp3!</a></p>
+    </audio>
+</body>
+</html>
