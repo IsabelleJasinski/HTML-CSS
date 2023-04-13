@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+            td, th {
+        border: 1px solid black;
+        padding: 10px;
+        vertical-align: top;
+    }
+    table {
+        width: 500px;
+        border-collapse: collapse;
+        position: relative;
+    }
+    thead, tfoot {
+        background-color: gray;
+        color: white;
+    }
+    caption {
+         font-size: 1.5em;
+         font-weight: bold;
+         padding: 10px;
+         background-color: lightgrey;
+    }
+    td.num {
+        text-align: right;
+    }
+    tbody > tr:nth-child(odd) {
+        background-color: lightgrey;
+
+    }
+    tbody > tr:nth-child(even) {
+        background-color: rgb(110, 110, 110);
+
+    }
+    thead > tr > th {
+        position: sticky;
+        top: -1px;
+        background-color: rgb(114, 114, 114);
+    }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Caption</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scol="col" style="width: 200px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> 
+                <td>São paulo</td>
+                <td class="num">000 000 000</td>
+            </tr>
+            <tr>
+                <td >Minas Gerais</td>
+                <td class="num">000 000 000</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">000 000 000</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="num">00000</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos et vero laudantium ipsa mollitia, omnis alias commodi illum! Voluptates voluptas laudantium non nihil consectetur error nemo sequi doloremque odit nisi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, error vitae animi consequuntur exercitationem perspiciatis quo non, iure veritatis, dolor ut voluptatum repellat impedit consectetur. Corporis soluta ex ratione obcaecati. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur nesciunt rem itaque excepturi placeat corrupti! Atque quibusdam at labore eveniet nesciunt tempore laudantium necessitatibus dolorum placeat dicta, officia, maiores amet!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos et vero laudantium ipsa mollitia, omnis alias commodi illum! Voluptates voluptas laudantium non nihil consectetur error nemo sequi doloremque odit nisi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, error vitae animi consequuntur exercitationem perspiciatis quo non, iure veritatis, dolor ut voluptatum repellat impedit consectetur. Corporis soluta ex ratione obcaecati. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur nesciunt rem itaque excepturi placeat corrupti! Atque quibusdam at labore eveniet nesciunt tempore laudantium necessitatibus dolorum placeat dicta, officia, maiores amet!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos et vero laudantium ipsa mollitia, omnis alias commodi illum! Voluptates voluptas laudantium non nihil consectetur error nemo sequi doloremque odit nisi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, error vitae animi consequuntur exercitationem perspiciatis quo non, iure veritatis, dolor ut voluptatum repellat impedit consectetur. Corporis soluta ex ratione obcaecati. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur nesciunt rem itaque excepturi placeat corrupti! Atque quibusdam at labore eveniet nesciunt tempore laudantium necessitatibus dolorum placeat dicta, officia, maiores amet!
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos et vero laudantium ipsa mollitia, omnis alias commodi illum! Voluptates voluptas laudantium non nihil consectetur error nemo sequi doloremque odit nisi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, error vitae animi consequuntur exercitationem perspiciatis quo non, iure veritatis, dolor ut voluptatum repellat impedit consectetur. Corporis soluta ex ratione obcaecati. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur nesciunt rem itaque excepturi placeat corrupti! Atque quibusdam at labore eveniet nesciunt tempore laudantium necessitatibus dolorum placeat dicta, officia, maiores amet!
+    </p>
+</body>
+</html>
