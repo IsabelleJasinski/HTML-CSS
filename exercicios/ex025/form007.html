@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iestado">
+                <optgroup label="regiao pa">
+                    <option value="Pr">Parana</option>
+                    <option value="Pr">Paraná</option>
+                <optgroup label="Regiao bu">
+                    </optgroup>
+                    <option value="Pr">Párana</option>
+                    <option value="Pr">Parána</option>
+                </optgroup>
+  
+
+                
+            </select>       
+                   <p>
+                    <label for="iprof">Profissão</label>
+                    <input type="text" name="prof" id="iprof" list="listprof">  
+                 <datalist id="listprof" >
+                <option value="a">pa</option>
+                <option value="u">bu</option>
+            </datalist>
+                </p>
+        </p>
+        <p>
+            <input type="submit" value="Enviar" >
+          <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+</body>
+</html>
